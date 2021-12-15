@@ -1,16 +1,16 @@
 ## Computing accuracy of imputation
-### Accepted imputed data format to compute imputation accuracy varies 
+#### Accepted imputed data format to compute imputation accuracy varies 
 - Dosages (Genotype codes ranging from 0-2)
 - Gene content (Discrete genotypes coded as 0, 1, 2) 
 - Allele format (mostly in linkage and transposed linkage formats eg. PLINK PED and TPED)
 ---
-### Imputation accuracy is computed using four methods 
+#### Imputation accuracy is computed using four methods 
 - Correlation between imputed and true genotypes
 - Allelic correct rate (1 - allelic error rate)
 - Percentage of correct calls
 - Correlation between centered-imputed and centered-true genotypes (see Calus et al. 2014) 
 ---
-### The following arguments needed as an input for the function object in *"calc_imp_accu.R"* script  
+#### The following arguments needed as an input file for the *calc.imp.accuracy* function in *"calc_imp_accu.R"* script  
 - **truegeno**: Filename of true genotype (PLINK or allele dosage or gene content format)
 - **imputedgeno**: Filename of imputed genotype (PLINK or allele dosage or gene content format)
 - **mapHD**: Filename of the HIGH density SNP map file
