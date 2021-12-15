@@ -3,7 +3,7 @@ calc.imp.accuracy <- function(truegeno,imputedgeno,mapHD,mapLD,nIID,format,accur
   options(warn=-1)
   #==================================================================================================#
   # truegeno == filename of true genotype (PLINK or allele dosage or gene content format)
-  # imputedgeno == filename of true genotype (PLINK or allele dosage or gene content format)
+  # imputedgeno == filename of imputed genotype (PLINK or allele dosage or gene content format)
   # mapHD == filename of the HIGH density SNP map file
   # mapLD == filename of the LOW density or imputed genotype SNP map file
   # nIID == number of animals genotyped, you can specify higher number but not less
