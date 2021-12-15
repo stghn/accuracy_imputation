@@ -10,7 +10,7 @@
 - Percentage of correct calls
 - Correlation between centered-imputed and centered-true genotypes (see Calus et al. 2014) 
 ---
-#### The following arguments needed as an input file for the *calc.imp.accuracy* function in *"calc_imp_accu.R"* script  
+#### The following arguments needed as an input file for the *"calc.imp.accuracy"* function in *"calc_imp_accu.R"* script  
 - **truegeno**: Filename of true genotype (PLINK or allele dosage or gene content format)
 - **imputedgeno**: Filename of imputed genotype (PLINK or allele dosage or gene content format)
 - **mapHD**: Filename of the HIGH density SNP map file
